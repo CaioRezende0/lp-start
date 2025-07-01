@@ -1,11 +1,12 @@
-import { Calendar } from "lucide-react";
-import Beneficios from "./components/Beneficios";
-import Depoimentos from "./components/Depoimentos";
-import Empreendimentos from "./components/Empreendimentos";
-import Hero from "./components/Hero";
-import Sobre from "./components/Sobre";
-import CalendarioEventos from "./components/CalendarioEventos";
-import Footer from "./components/Footer";
+import {
+  Beneficios,
+  Depoimentos,
+  Empreendimentos,
+  Hero,
+  Sobre,
+  CalendarioEventos,
+  Footer,
+} from "./components";
 
 export default function Home() {
   return (
