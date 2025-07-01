@@ -7,12 +7,12 @@ export const depoimentos: Depoimento[] = [
   {
     nome: "Ana Oliveira",
     texto:
-      "A B Fabriani me deu todo suporte para crescer como corretora. Foi uma virada de chave na minha carreira!",
+      "A B Fabbrani me deu todo suporte para crescer como corretora. Foi uma virada de chave na minha carreira!",
   },
   {
     nome: "Carlos Santos",
     texto:
-      "Consegui dobrar meu faturamento com o programa de aceleração de vendas da B Fabriani.",
+      "Consegui dobrar meu faturamento com o programa de aceleração de vendas da B Fabbrani.",
   },
   {
     nome: "Fernanda Lima",

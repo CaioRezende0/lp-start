@@ -9,7 +9,7 @@ export default function Beneficios() {
       <div className="flex justify-center items-end gap-4 mb-10">
         <div className="w-[110px] aspect-square relative">
           <Image
-            src="/images/icone-1.png"
+            src="/images/Icone-1.png"
             alt="Ícone 1"
             fill
             className="object-contain drop-shadow-md hover:scale-105 transition-transform duration-300"
@@ -17,7 +17,7 @@ export default function Beneficios() {
         </div>
         <div className="w-[160px] aspect-square relative">
           <Image
-            src="/images/icone-2.png"
+            src="/images/Icone-2.png"
             alt="Ícone 2"
             fill
             className="object-contain drop-shadow-md hover:scale-110 transition-transform duration-300"
@@ -25,7 +25,7 @@ export default function Beneficios() {
         </div>
         <div className="w-[120px] aspect-square relative">
           <Image
-            src="/images/icone-3.png"
+            src="/images/Icone-3.png"
             alt="Ícone 3"
             fill
             className="object-contain drop-shadow-md hover:scale-105 transition-transform duration-300"
@@ -38,10 +38,10 @@ export default function Beneficios() {
           VOCÊ ESTÁ ENFRENTANDO DIFICULDADES PARA FECHAR VENDAS?
         </h2>
         <h3 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#6D28D9] to-[#A78BFA] mt-2">
-          A B Fabriani tem a solução!
+          A B Fabbrani tem a solução!
         </h3>
         <p className="text-sm md:text-base text-[#333] mt-4">
-          O que a B Fabriani entrega:
+          O que a B Fabbrani entrega:
         </p>
       </div>
 
