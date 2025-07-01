@@ -1,10 +1,12 @@
 import { CalendarDays } from "lucide-react";
 import { eventos } from "@/data/eventos";
+import Container from "./Container";
 
 export default function CalendarioEventos() {
 
   return (
-    <section className="bg-[#E4E7FA] py-20 px-6 md:px-16 text-[#0B0B18]">
+    <section className="bg-[#E4E7FA] py-20 text-[#0B0B18]">
+      <Container>
       {/* Título */}
       <div className="text-center mb-14">
         <h2 className="text-3xl md:text-4xl font-bold">
@@ -16,7 +18,7 @@ export default function CalendarioEventos() {
       </div>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {eventos.map((evento, idx) => (
           <div
             key={idx}
@@ -37,6 +39,7 @@ export default function CalendarioEventos() {
           </div>
         ))}
       </div>
+      </Container>
     </section>
   );
 }

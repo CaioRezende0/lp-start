@@ -1,18 +1,20 @@
 import Image from "next/image";
 import { empreendimentos } from "@/data/empreendimentos";
+import Container from "./Container";
 
 export default function Empreendimentos() {
 
   return (
-    <section className="bg-[#0B0B18] text-white py-20 px-6 md:px-16">
-      <h2 className="text-3xl md:text-4xl font-semibold mb-12 leading-tight">
-        Nossos <br /> Empreendimentos
-      </h2>
+    <section className="bg-[#0B0B18] text-white py-20">
+      <Container>
+        <h2 className="text-3xl md:text-4xl font-semibold mb-12 leading-tight">
+          Nossos <br /> Empreendimentos
+        </h2>
 
-      <div className="grid gap-8 md:grid-cols-2">
-        {empreendimentos.map((item) => (
-          <div
-            key={item.nome}
+        <div className="grid gap-8 md:grid-cols-2">
+          {empreendimentos.map((item) => (
+            <div
+              key={item.nome}
             className="relative aspect-[16/10] rounded-xl overflow-hidden group"
           >
             {/* Imagem de fundo */}
@@ -34,7 +36,8 @@ export default function Empreendimentos() {
             </div>
           </div>
         ))}
-      </div>
+        </div>
+      </Container>
     </section>
   );
 }
