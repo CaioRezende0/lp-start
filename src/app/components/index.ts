@@ -5,3 +5,4 @@ export { default as CalendarioEventos } from './CalendarioEventos';
 export { default as Footer } from './Footer';
 export { default as Hero } from './Hero';
 export { default as Sobre } from './Sobre';
+export { default as Container } from './Container';

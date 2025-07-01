@@ -1,10 +1,12 @@
 import Image from "next/image";
 import { beneficios } from "@/data/beneficios";
+import Container from "./Container";
 
 export default function Beneficios() {
 
   return (
-    <section className="bg-gradient-to-b from-[#e5e9ff] to-[#dce1fa] text-[#0B0B18] py-20 px-6 md:px-16">
+    <section className="bg-gradient-to-b from-[#e5e9ff] to-[#dce1fa] text-[#0B0B18] py-20">
+      <Container>
       {/* ÍCONES de introdução */}
       <div className="flex justify-center items-end gap-4 mb-10">
         <div className="w-[110px] aspect-square relative">
@@ -46,7 +48,7 @@ export default function Beneficios() {
       </div>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {beneficios.map(({ titulo, descricao, icon: Icon }) => (
           <div
             key={titulo}
@@ -69,6 +71,7 @@ export default function Beneficios() {
           PARTICIPE AGORA!
         </button>
       </div>
+      </Container>
     </section>
   );
 }

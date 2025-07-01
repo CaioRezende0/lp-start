@@ -1,13 +1,14 @@
 import { Instagram, Linkedin, Phone } from "lucide-react";
 import Image from "next/image";
+import Container from "./Container";
 
 export default function Footer() {
   return (
-    <footer className="relative bg-[#0B0B18] text-white px-6 md:px-16 pt-20 pb-10 mt-32">
+    <footer className="relative bg-[#0B0B18] text-white pt-20 pb-10 mt-32">
       {/* Gradiente superior */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#6D28D9] via-[#A78BFA] to-[#6D28D9]" />
-
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 relative z-10">
+      <Container>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 relative z-10">
         {/* Logo e descrição */}
         <div className="space-y-4">
           <Image
@@ -94,6 +95,7 @@ export default function Footer() {
       <div className="mt-12 border-t border-white/10 pt-6 text-center text-sm text-gray-500">
         © {new Date().getFullYear()} B·Fabbrani. Todos os direitos reservados.
       </div>
+      </Container>
     </footer>
   );
 }
