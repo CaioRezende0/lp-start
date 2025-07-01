@@ -1,23 +1,7 @@
 import { CalendarDays } from "lucide-react";
+import { eventos } from "@/data/eventos";
 
 export default function CalendarioEventos() {
-  const eventos = [
-    {
-      titulo: "Integração em São Paulo",
-      data: "10 de Agosto de 2025",
-      descricao: "Evento exclusivo para corretores da capital paulista.",
-    },
-    {
-      titulo: "Treinamento Online",
-      data: "15 de Agosto de 2025",
-      descricao: "Capacitação técnica com nossos especialistas.",
-    },
-    {
-      titulo: "Encontro Nacional B·Fabbrani",
-      data: "22 de Agosto de 2025",
-      descricao: "Um dia inteiro de networking, palestras e novidades.",
-    },
-  ];
 
   return (
     <section className="bg-[#E4E7FA] py-20 px-6 md:px-16 text-[#0B0B18]">

@@ -1,23 +1,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { depoimentos } from "@/data/depoimentos";
 
 export default function Depoimentos() {
-  const depoimentos = [
-    {
-      nome: "Ana Oliveira",
-      texto:
-        "A B Fabriani me deu todo suporte para crescer como corretora. Foi uma virada de chave na minha carreira!",
-    },
-    {
-      nome: "Carlos Santos",
-      texto:
-        "Consegui dobrar meu faturamento com o programa de aceleração de vendas da B Fabriani.",
-    },
-    {
-      nome: "Fernanda Lima",
-      texto:
-        "O acompanhamento e treinamento foram incríveis. Me sinto preparada e segura no mercado!",
-    },
-  ];
 
   return (
     <section className="bg-[#0B0B18] text-white py-20 px-6 md:px-16 overflow-hidden">

@@ -1,18 +1,7 @@
 import Image from "next/image";
+import { empreendimentos } from "@/data/empreendimentos";
 
 export default function Empreendimentos() {
-  const projetos = [
-    {
-      nome: "Armona",
-      status: "100% de entrega concluída.",
-      imagem: "/images/1.png",
-    },
-    {
-      nome: "Villa",
-      status: "em fase final de obra.",
-      imagem: "/images/2.png",
-    },
-  ];
 
   return (
     <section className="bg-[#0B0B18] text-white py-20 px-6 md:px-16">
@@ -21,7 +10,7 @@ export default function Empreendimentos() {
       </h2>
 
       <div className="grid gap-8 md:grid-cols-2">
-        {projetos.map((item) => (
+        {empreendimentos.map((item) => (
           <div
             key={item.nome}
             className="relative aspect-[16/10] rounded-xl overflow-hidden group"
