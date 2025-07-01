@@ -21,7 +21,7 @@ export default function Hero() {
 
         {/* Título */}
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white">
-          Junte-se à <span className="text-[#A78BFA]">B Fabriani</span>
+          Junte-se à <span className="text-[#A78BFA]">B Fabbrani</span>
           <br />
           e transforme sua carreira
           <br />
@@ -31,7 +31,7 @@ export default function Hero() {
         {/* Subheadline destacada */}
         <p className="text-[#A78BFA] bg-[#ffffff1a] px-4 py-2 rounded font-medium text-base md:text-lg max-w-fit">
           Descubra o programa de aceleração
-          <br className="hidden sm:block" /> de vendas da B Fabriani
+          <br className="hidden sm:block" /> de vendas da B Fabbrani
         </p>
 
         {/* Texto adicional */}

@@ -29,7 +29,7 @@ export default function Sobre() {
 
         {/* Texto */}
         <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-          Com 10 anos de experiência, a B Fabriani é uma incorporadora nacional
+          Com 10 anos de experiência, a B Fabbrani é uma incorporadora nacional
           com lançamentos em diversos estados do Brasil.
         </p>
       </div>
