@@ -9,7 +9,7 @@ export default function Beneficios() {
       <Container>
       {/* ÍCONES de introdução */}
       <div className="flex justify-center items-end gap-4 mb-10">
-        <div className="w-[110px] aspect-square relative">
+        <div className="w-20 sm:w-[110px] aspect-square relative">
           <Image
             src="/images/Icone-1.png"
             alt="Ícone 1"
@@ -17,7 +17,7 @@ export default function Beneficios() {
             className="object-contain drop-shadow-md hover:scale-105 transition-transform duration-300"
           />
         </div>
-        <div className="w-[160px] aspect-square relative">
+        <div className="w-24 sm:w-[160px] aspect-square relative">
           <Image
             src="/images/Icone-2.png"
             alt="Ícone 2"
@@ -25,7 +25,7 @@ export default function Beneficios() {
             className="object-contain drop-shadow-md hover:scale-110 transition-transform duration-300"
           />
         </div>
-        <div className="w-[120px] aspect-square relative">
+        <div className="w-20 sm:w-[120px] aspect-square relative">
           <Image
             src="/images/Icone-3.png"
             alt="Ícone 3"

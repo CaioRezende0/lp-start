@@ -13,7 +13,7 @@ export default function Hero() {
 
         <Container className="relative z-10 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
           {/* Conteúdo à esquerda */}
-          <div className="space-y-6 mb-5">
+          <div className="space-y-6 mb-5 text-center md:text-left">
             <Image
               src="/images/logo.png"
               alt="Logo B Fabbrani"
@@ -39,7 +39,7 @@ export default function Hero() {
               comece a vender nossos empreendimentos de alta qualidade.
             </p>
 
-            <button className="bg-[#A78BFA] hover:bg-[#8B5CF6] transition-colors duration-300 text-white px-6 py-3 rounded font-semibold shadow-lg w-fit">
+            <button className="bg-[#A78BFA] hover:bg-[#8B5CF6] transition-colors duration-300 text-white px-6 py-3 rounded font-semibold shadow-lg w-full sm:w-fit">
               PARTICIPE AGORA!
             </button>
           </div>

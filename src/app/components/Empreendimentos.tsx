@@ -19,7 +19,7 @@ export default function Empreendimentos() {
         </h2>
 
         {/* Centraliza o Swiper */}
-        <div className="relative h-[700px] md:h-[800px] flex items-center justify-center">
+        <div className="relative h-[520px] sm:h-[700px] md:h-[800px] flex items-center justify-center">
           <Swiper
             direction="vertical"
             slidesPerView={2}
