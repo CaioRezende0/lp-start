@@ -34,3 +34,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Sistema de login administrativo
+
+### Arquitetura
+
+- `src/lib/auth.ts`: regras de autenticação e gestão de sessão (token assinado com HMAC SHA-256).
+- `src/app/api/auth/login/route.ts`: endpoint para login e criação de cookie seguro `admin_session`.
+- `src/app/api/auth/logout/route.ts`: endpoint para logout e invalidação do cookie.
+- `middleware.ts`: proteção de rotas `/admin` e redirecionamento inteligente para `/login`.
+- `src/app/login/page.tsx` + `src/app/components/admin/LoginForm.tsx`: interface de autenticação.
+- `src/app/admin/page.tsx` + `src/app/components/admin/LogoutButton.tsx`: dashboard protegido.
+
+### Credenciais padrão (desenvolvimento)
+
+- E-mail: `admin@dashboard.com`
+- Senha: `admin123`
+
+Pode sobrescrever com variáveis de ambiente:
+
+- `SESSION_SECRET`
+- `ADMIN_EMAIL`
+- `ADMIN_PASSWORD`
